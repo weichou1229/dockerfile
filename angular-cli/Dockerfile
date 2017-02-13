@@ -4,7 +4,7 @@ ENV HOME=/usr/src/app
 RUN mkdir $HOME
 WORKDIR $HOME
 
-RUN npm install -g angular-cli@1.0.0-beta.31 && npm cache clean
+RUN npm install -g @angular/cli && npm cache clean
 
 EXPOSE 4200
 EXPOSE 49153

@@ -4,7 +4,7 @@ my docker file
 
 ## run jenkins 
 
-```
+```bash
 JENKINS_DATA=/path/to/jenkins-data
 MAVEN_HOME=/path/to/maven-repos
            

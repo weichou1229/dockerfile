@@ -7,7 +7,7 @@ RUN apt-get -qq update \
 
 RUN curl -sSL https://get.docker.com/ | sh
 
-RUN usermod -a -G staff jenkins
+RUN usermod -a -G docker jenkins
 
 RUN apt-get -qq update \
    && apt-get -qq -y install net-tools
